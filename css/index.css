@@ -1,18 +1,18 @@
- /* Neue Farbvariablen für einen natürlichen, erdigen Look */
+﻿ /* Neue Farbvariablen fÃ¼r einen natÃ¼rlichen, erdigen Look */
  :root {
     /* Hintergrund in einem sehr hellen, cremigen Ton */
     --background: 50 40% 98%;
     /* Dunkler, erdiger Text in Braunnuancen */
     --foreground: 30 15% 25%;
-    /* Karten-/Popover-Hintergrund – klassisch weiß, passt gut zu den erdigen Akzenten */
+    /* Karten-/Popover-Hintergrund â€“ klassisch weiÃŸ, passt gut zu den erdigen Akzenten */
     --card: 0 0% 100%;
     --card-foreground: 30 15% 25%;
     --popover: 0 0% 100%;
     --popover-foreground: 30 15% 25%;
-    /* Primärfarbe: gedämpftes Olivgrün (deutlich weniger gesättigt als zuvor) */
+    /* PrimÃ¤rfarbe: gedÃ¤mpftes OlivgrÃ¼n (deutlich weniger gesÃ¤ttigt als zuvor) */
     --primary: 120 25% 40%;
     --primary-foreground: 0 0% 100%;
-    /* Sekundärfarbe: warme, erdige Orange-/Bronzetöne */
+    /* SekundÃ¤rfarbe: warme, erdige Orange-/BronzetÃ¶ne */
     --secondary: 30 50% 55%;
     --secondary-foreground: 0 0% 100%;
     /* Muted: heller Beige-Ton */
@@ -21,13 +21,13 @@
     /* Akzentfarbe: weiches, pastelliges Pfirsich-/Sandeton */
     --accent: 30 40% 90%;
     --accent-foreground: 30 15% 25%;
-    /* Destruktiv: leicht abgedunkeltes, natürliches Rot für Warnungen */
+    /* Destruktiv: leicht abgedunkeltes, natÃ¼rliches Rot fÃ¼r Warnungen */
     --destructive: 0 70% 60%;
     --destructive-foreground: 0 0% 98%;
     /* Border und Input in einem sanften Erdton */
     --border: 30 20% 85%;
     --input: 30 20% 85%;
-    /* Ring (Fokus) übernimmt den Primärton */
+    /* Ring (Fokus) Ã¼bernimmt den PrimÃ¤rton */
     --ring: 120 25% 40%;
     --radius: 0.5rem;
   }
@@ -68,7 +68,7 @@
     padding-top:1em;
   }
 
-  /* Auf mobilen Geräten wird der Inhalt im Nav zentriert */
+  /* Auf mobilen GerÃ¤ten wird der Inhalt im Nav zentriert */
   nav {
     padding: 1rem 0;
     text-align: center;
@@ -78,7 +78,7 @@
     height: auto;
   }
   
-  /* Auf größeren Bildschirmen (Desktop) linksbündig */
+  /* Auf grÃ¶ÃŸeren Bildschirmen (Desktop) linksbÃ¼ndig */
   @media (min-width: 1024px) {
     nav {
       text-align: left;
@@ -364,7 +364,7 @@
     color: hsl(var(--muted-foreground));
   }
 
-  /* Zusätzliche Styles für neue Sektionen */
+  /* ZusÃ¤tzliche Styles fÃ¼r neue Sektionen */
   .cta-link {
     display: inline-block;
     padding: 1rem 2rem;
@@ -536,7 +536,7 @@
   line-height: 1.4;
 }
 
-/* Card-Button Styling – angelehnt an die CTA-Buttons, aber etwas kompakter */
+/* Card-Button Styling â€“ angelehnt an die CTA-Buttons, aber etwas kompakter */
 .card-btn {
   display: inline-block;
   padding: 0.75rem 1.25rem; /* etwas kleiner als 1.5rem, um in die Card zu passen */
@@ -556,8 +556,8 @@
   opacity: 0.9;
 }
 
-/* Falls Du den Button als <a>-Element einsetzt, kannst Du zusätzlich sicherstellen, dass
-   der Link-Stil übernommen wird: */
+/* Falls Du den Button als <a>-Element einsetzt, kannst Du zusÃ¤tzlich sicherstellen, dass
+   der Link-Stil Ã¼bernommen wird: */
 .card-btn a {
   text-decoration: none;
   color: inherit;
@@ -576,11 +576,11 @@
 .hero {
   text-align: center;
   padding: 60px 20px;
-  /* Hintergrundbild einfügen */
-  background: url('/public/rhodiola.jpeg') center/cover no-repeat;
+  /* Hintergrundbild einfÃ¼gen */
+  background: url('../public/rhodiola.jpeg') center/cover no-repeat;
   background-color: rgba(255,255,255,0.6);
   background-blend-mode:darken;
-  color: #fff; /* Weißer Text für bessere Lesbarkeit */
+  color: #fff; /* WeiÃŸer Text fÃ¼r bessere Lesbarkeit */
 }
 
 .hero h1 {
